@@ -46,4 +46,4 @@ If useLokouyp is false then an array of addresses is returned.
 
 ### Testing
 
-    npm test
+    gulp test
