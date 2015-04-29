@@ -1,0 +1,28 @@
+{
+  "name": "node-dnscache",
+  "version": "0.0.1",
+  "description": "Simple IPv4 A record DNS lookups wrapped in a cache",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vibrant-Media/node-dnscache"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "main": "dnscache.js",
+  "scripts": {
+    "build": "gulp",
+    "test": "gulp test"
+  },
+  "dependencies": {
+    "async-cache" : "~0.1.5"
+  },
+  "devDependencies": {
+    "gulp": "~3.8.11",
+    "gulp-jshint": "~1.9.2",
+    "gulp-mocha": "~2.0.0",
+    "jshint-stylish": "~1.0.1",
+    "mocha": "~2.2.1"
+  }
+}
