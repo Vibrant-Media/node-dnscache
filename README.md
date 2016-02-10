@@ -42,7 +42,7 @@ The following describes the defaults used by the optional config you can pass to
     };
 
 If useLookup is true then a single address is returned.
-If useLokouyp is false then an array of addresses is returned.
+If useLookup is false then an array of addresses is returned.
 
 ### Testing
 
